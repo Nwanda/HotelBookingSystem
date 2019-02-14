@@ -28,6 +28,20 @@ body {
   border: 1px solid red;
 } */
 
+.search{
+  background:rgb(255, 187, 153);
+  position: absolute;
+  bottom: -145px;
+  width: 77%;
+  border-radius: 10px;
+  margin-left: 3px;
+  padding: 20px;
+}
+.search label{
+  font-size: 20px;
+  margin-left: 65px;
+ }
+
 .trying{
   background:rgb(255, 187, 153);
   
@@ -78,5 +92,109 @@ body {
     margin-left: 10px;
     color: #f8e69f;
   }
+  .mainfooter {
+    background-color: rgb(240, 223, 232);
+    font-size: 100;
+    padding: 10px;
+    
+  }
+  .mainfooter a {
+    text-decoration: none;
+    font-style: 1.1rem;
+    padding-top: 10px;
+    color: black;
+  }
+  
+  .item li {
+    list-style: none;
+  }
+  .item li :hover,.item2 :hover,.item3 button :hover {
+    color: aqua;
+  }
+  .item h4 {
+    font-size: 200;
+  }
+
+ .item3 input {
+    background: #FF5722;
+    border-radius: 15px;
+  }
+
+
+   //  signin form starts here..
+
+   .container-fluid {
+    margin:0;
+    padding: 0 ;
+    background: url("../assets/login_bkg.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+  }
+  .loginbox {
+    padding-top: 5rem;
+    align-items: center;
+    margin-top: 5rem;
+
+  }
+  .loginbox button{
+    color: #fff;
+    width: 50%;
+    padding: 10px;
+    font-family: italic;
+    background: #3354e9;
+    text-align: center;
+    margin-left:8rem;
+    border-radius: 5px;
+  }
+  .signin {
+    width: 100%;
+    overflow: hidden;
+    font-size: 30px;
+    padding: 10px;
+    border-bottom: 1px solid #686661 ;
+    color: #ada479;
+    margin: 0 0 40px;
+  }
+
+.signin input {
+    border: none;
+    border-color: transparent;
+    outline: none;
+    font-size: 20px;
+    background:none !important;
+    text-align: center;
+    margin: 0 10px;
+    color: white;
+    text-decoration-color: #ffffff;
+  }
+.signin:focus, input:focus{
+    outline: none;
+}
+  .signin::placeholder {
+    color: #ffffff;
+  }
+  .loginbox h1{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: italic;
+  }
+
+  // Registration form starts here
+
+  .register {
+    height: 900px;
+    width: 80%;
+    display: inline;
+    background: #ffffff;
+  }
+  .form-inline{
+    display: block;
+  }
+  
+
+  
 
   
