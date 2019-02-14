@@ -99,7 +99,8 @@ input, button, select, optgroup, textarea {
 
 .item3 input {
   background: #FF5722;
-  border-radius: 15px; }
+  border-radius: 15px;
+  border: none; }
 
 .container-fluid {
   margin: 0;
@@ -136,7 +137,7 @@ input, button, select, optgroup, textarea {
 
 .signin input {
   border: none;
-  border-color: transparent !important;
+  border-color: none !important;
   outline: none;
   font-size: 20px;
   background: none !important;
@@ -146,7 +147,8 @@ input, button, select, optgroup, textarea {
   text-decoration-color: #ffffff; }
 
 .signin:focus, input:focus {
-  outline: none; }
+  outline: none;
+  border: none; }
 
 .signin::placeholder {
   color: #ffffff; }
